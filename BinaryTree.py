@@ -91,13 +91,14 @@ root.right.left = Node(6)
 root.right.right = Node(7)
 
 lca = findLCA(root, 4, 5)
+
 if lca is not None:
-	print"LCA(4,5) = ", lca.key
-else:
-	print"Keys are not present"
+	print "LCA(4, 5) = ", lca.key
+else :
+	print "Keys are not present"
 
 lca = findLCA(root, 4, 10)
 if lca is not None:
-	print"LCA(4,10) = ", lca.key
+	print "LCA(4,10) = ", lca.key
 else:
-	print"Keys are not present"
+	print "Keys are not present"

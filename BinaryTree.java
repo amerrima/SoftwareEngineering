@@ -1,4 +1,5 @@
 // Java implementation to find lowest common ancestor of
+
 // n1 and n2 using one traversal of binary tree
 // It also handles cases even when n1 and n2 are not there in Tree
 
